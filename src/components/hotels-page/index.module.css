@@ -1,0 +1,154 @@
+
+.home {
+    background: #E5E5E5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 30px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #424242;
+}
+
+.content {
+    max-width: 1078px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navigation {
+    padding-bottom: 26px;
+    margin-right: 24px;
+    flex: 0 1 35%;
+}
+
+.default {
+    background: #FFFFFF;
+    box-shadow: 0 4px 33px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.search {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 360px;
+}
+
+.button {
+    height: 50px;
+    width: 100%;
+}
+
+.favorites {
+    height: 472px;
+    margin-top: 24px;
+    max-width: 360px;
+}
+
+.favoritesTitle {
+    color: #424242;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+.select {
+    background-color: white;
+    border: 1px solid #41522E;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: fit-content;
+    margin: 32px 8px 20px 0;
+}
+
+.favoritesHotels {
+    overflow-y: auto;
+    max-height: 302px;
+}
+
+.favoritesHotels::-webkit-scrollbar {
+    background-color: white;
+    width: 2px;
+    height: 100px;
+}
+
+.hotels {
+    max-width: 664px;
+    padding: 50px 32px;
+    height: 902px;
+}
+
+.hotelsText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.largeText {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #424242;
+}
+
+.hotelsCity {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    margin: 0 20px;
+}
+
+.hotelsDate {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #41522E;
+}
+
+
+.favoritesCount {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #424242;
+    margin: 20px 0;
+}
+
+.favoritesLength {
+    font-weight: 500;
+    color: #41522E;
+}
+
+.hotelsContainer {
+    height: 530px;
+    overflow-y: auto;
+    padding-right: 38px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+}
+.hotelsContainer::-webkit-scrollbar {
+    background-color: #E7E7E7;
+    width: 2px;
+    border-radius: 2px;
+}
+
+.hotelsContainer::-webkit-scrollbar-thumb {
+    background-color: #41522E;
+    border-radius: 2px;
+}

@@ -5,9 +5,10 @@ import cn from 'classnames'
 export const Button = ({
     children,
     className,
+    onClick,
                 }) => {
     return (
-        <button className={cn(css.Button ,className)}>
+        <button onClick={onClick} className={cn(css.Button ,className)}>
             {children}
         </button>
     );
