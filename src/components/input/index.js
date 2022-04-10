@@ -6,12 +6,17 @@ export const Input = ({
     label,
     placeholder,
     onChange,
-    type = 'text'
+    value,
+    type = 'text',
+    min,
+    max,
+    pattern,
+    ref
                }) => {
     return (
         <div className={className}>
             <p className={css.label}>{label}</p>
-            <input className={css.input} onChange={onChange} placeholder={placeholder} type={type}/>
+            <input ref={ref} pattern={pattern} min={min} max={max} className={css.input} onChange={onChange} placeholder={placeholder} type={type} value={value}/>
         </div>
     );
 };

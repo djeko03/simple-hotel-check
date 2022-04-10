@@ -1,0 +1,17 @@
+
+
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button {
+    background-color: inherit;
+    color: #41522E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
