@@ -23,7 +23,7 @@ export const HomePage = () => {
 
     useEffect(() => {
         dispatch(fetchHotelsAction())
-    }, [])
+    })
 
 
     const handleSearch = () => {
